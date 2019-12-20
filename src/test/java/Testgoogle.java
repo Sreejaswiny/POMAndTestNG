@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 public class Testgoogle {
 
     @Test
-    public void test1() {
+    public void googleTest1() {
         System.setProperty("webdriver.chrome.driver","/Users/sreejaswiny/Downloads/chromedriver");
         WebDriver driver= new ChromeDriver();
         driver.manage().timeouts();
