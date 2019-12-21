@@ -15,7 +15,7 @@ public class Testgoogle {
         driver.get("https://www.google.com");
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        System.out.println("Hello World");
+        System.out.println("Hello World!! JS");
         driver.close();
     }
 }
